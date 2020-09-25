@@ -1,0 +1,11 @@
+vize=int(input("Ogrencinin vize notunu giriniz: "))
+print(vize)
+final=int(input("Ogrencinin final notunu giriniz: "))
+print(final)
+ysn=(vize*0.4)+(final*0.6)
+if final<60:
+    print("Ogrenci Dersten Kalmistir.")
+elif ysn>60:
+    print("Ogrenci Dersten Gecmistir",ysn)
+else:
+    print("Ogrenci Dersten Kalmistir.",ysn)
