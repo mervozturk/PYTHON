@@ -1,0 +1,6 @@
+f1,f2,fib,n=1,1,0,2
+while len(str(fib))<1000:
+    fib=f1+f2
+    f1,f2=f2,fib
+    n+=1
+print(n)
