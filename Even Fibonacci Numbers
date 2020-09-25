@@ -1,0 +1,7 @@
+x,y,z,toplam=1,1,0,0
+while z<4000000:
+    if z%2==0:
+        toplam+=z
+    z=x+y
+    x,y=y,z
+print(toplam)
